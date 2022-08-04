@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Lato:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="conquering responsive layouts" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container row">
+        <div class="hero__text">
+          <span>Hey, I'am</span>
+          <h1>Paul Obayuwana</h1>
+          <p>
+            I'm a software engineer based in Toronto, Canada and also a
+            communication and journalism student. I enjoy creating things that
+            live on the internet, whether that be websites, applications, or
+            anything in between. I have been freelancing for a year now while
+            studying at the university and I've manage to gain a decent amount
+            of experience and valuable knowledge from all different kinds of
+            fields throughout my projects/work.
+          </p>
+
+          <a href="">Say Hi</a>
+        </div>
+        <!-- <img src="img/hero-img.jpg" alt="UX design sketches" class="hero__img"> -->
+      </div>
+    </section>
+
+    <!-- portfolio section start -->
+    <section class="portfolio">
+      <div class="container">
+        <h2>Featured Project</h2>
+
+        <!-- portfolio grid start -->
+        <div class="portfolio__grid">
+          <!-- 01 project card -->
+          <div class="portfolio__card">
+            <div class="card__content">
+              <div class="card__image" id="card__image-01"></div>
+              <div class="card__head">
+                <h3>Project One</h3>
+                <ul class="card__icon">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-github" style="color: white"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="">
+                      <i class="fas fa-link" style="color: white"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <p>
+                Chicago is the home of the blues and the truth of jazz, the
+                heart of comedy and the idea of the skyscraper
+              </p>
+
+              <ul class="card__buttons">
+                <li><a href="">live demo</a></li>
+                <li><a href="">About Project</a></li>
+                <li><a href="">Github Link</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- 02 project card -->
+          <div class="portfolio__card">
+            <div class="card__content">
+              <div class="card__image" id="card__image-02"></div>
+              <div class="card__head">
+                <h3>Project One</h3>
+                <ul class="card__icon">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-github" style="color: white"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="">
+                      <i class="fas fa-link" style="color: white"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <p>
+                Chicago is the home of the blues and the truth of jazz, the
+                heart of comedy and the idea of the skyscraper
+              </p>
+
+              <ul class="card__buttons">
+                <li><a href="">live demo</a></li>
+                <li><a href="">About Project</a></li>
+                <li><a href="">Github Link</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 03 project card -->
+          <div class="portfolio__card">
+            <div class="card__content">
+              <div class="card__image" id="card__image-03"></div>
+              <div class="card__head">
+                <h3>Project One</h3>
+                <ul class="card__icon">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-github" style="color: white"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="">
+                      <i class="fas fa-link" style="color: white"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <p>
+                Chicago is the home of the blues and the truth of jazz, the
+                heart of comedy and the idea of the skyscraper
+              </p>
+
+              <ul class="card__buttons">
+                <li><a href="">live demo</a></li>
+                <li><a href="">About Project</a></li>
+                <li><a href="">Github Link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- portfolio grid ends -->
+      </div>
+    </section>
+    <!-- portfolio section ends -->
+
+    <!-- contact section start -->
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__text">Contact</h2>
+
+        <ul class="contact__buttons">
+          <li>
+            <a href="mailto:obayuwanap@gmail.com" class="button">
+              <i class="fas fa-envelope" style="color: #c4c4c4"></i>
+              &nbsp; Send an email
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fab fa-linkedin-in" style="color: #c4c4c4"></i>
+              &nbsp; Linkedin
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fas fa-briefcase"></i>
+              &nbsp; Freelancer
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fab fa-github" style="color: #c4c4c4"></i>
+              &nbsp; Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

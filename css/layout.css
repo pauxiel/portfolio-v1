@@ -1,0 +1,243 @@
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
+}
+
+/* header */
+header {
+  padding: 1em 0;
+  text-align: center;
+  /* background: #111111; */
+}
+
+.hero {
+  /* background: #111111; */
+  padding: 100px 0;
+  color: #f0f0f0;
+}
+/* start */
+/* .hero__img {
+  margin-top: 2em;
+  border-radius: 300650px;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+@media (min-width: 800px) {
+  .hero__text {
+    width: 65%;
+  }
+
+  .hero__img {
+    width: 32%;
+    align-self: flex-start;
+    margin: 0;
+  }
+} */
+
+/* end */
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background-image: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 1.5rem 0;
+}
+
+.hero p {
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0 0 1.7rem 0;
+}
+
+.hero span {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.hero a {
+  color: white;
+  font-size: 1.3rem;
+
+  font-weight: 300;
+}
+
+h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin: 0 0 2.5rem 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  display: inline;
+  color: white;
+  font-weight: 300;
+  margin: 0rem;
+}
+
+.portfolio__grid {
+  /* width: 80%;
+  max-width: 1100px;
+  margin: 0 auto; */
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  display: grid;
+
+  /* padding: 0 1.5rem; */
+  grid-gap: 40px;
+}
+
+.card__image {
+  height: 25vw;
+  /* width: 50%; */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#card__image-01 {
+  background-image: url("/img/lion.jpg");
+}
+#card__image-02 {
+  background-image: url("/img/inspiration-1024x683.jpg");
+}
+#card__image-03 {
+  background-image: url("/img/Red_Hood-wallpaper-10328350.jpg");
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+}
+
+.card__head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.card__icon {
+  display: flex;
+  margin: 0rem;
+}
+
+.card__icon li {
+  height: 2rem;
+  width: 2rem;
+}
+
+.card__icon a {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.2rem;
+}
+
+.card__icon :first-child {
+  margin-right: 0.5rem;
+}
+
+.card__content p {
+  margin: 0.8rem 0 0.8rem 0;
+  color: #c4c4c4;
+  width: 90%;
+  font-weight: 300;
+}
+
+.card__buttons {
+  display: flex;
+  margin: 0rem;
+}
+
+.card__buttons a {
+  color: #6cace4;
+  font-weight: 300;
+}
+.card__buttons li {
+  margin-right: 0.6rem;
+}
+
+.portfolio__card {
+  margin-bottom: 1rem;
+}
+
+/* .contact__buttons {
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__buttons {
+    flex-wrap: wrap;
+  }
+}
+
+.contact__buttons a {
+  display: inline-block;
+  padding: 1.25rem 3.8rem;
+  border: 1px solid #fff;
+  font-size: 0.9rem;
+  color: #c4c4c4;
+  border-radius: 5px;
+} */
+
+/* .contact__buttons .button {
+  padding: 1.25rem 5rem;
+} */
+
+/* @media screen and (max-width: 1200px) { */
+/* .contact__buttons a {
+    font-size: 0.8rem; */
+/* padding: 1.25rem 5rem; */
+/* } */
+
+/* .contact__buttons li {
+    /* margin-right: 0.8rem; */
+/* width: 25%;
+    flex-grow: 1; */
+/* } */
+
+/* .contact__buttons:first-child li a {
+    padding: 1.25rem 7rem;
+  } */
+/* } */
+
+/* @media screen and (max-width: 600px) {
+  .contact__buttons li {
+    width: 35%;
+  }
+}
+
+.contact__buttons li {
+  margin-right: 0.8rem;
+}
+
+.contact {
+  padding-bottom: 40px;
+}
+
+.contact__text {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1300px) {
+  .contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.contact {
+  padding: 80px 0;
+} */
