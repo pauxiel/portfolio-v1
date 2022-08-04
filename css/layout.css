@@ -52,6 +52,12 @@ h1 {
   margin: 1.5rem 0;
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 .hero p {
   line-height: 30px;
   font-weight: 300;
@@ -76,6 +82,12 @@ h2 {
   font-size: 1.1rem;
   margin: 0 0 2.5rem 0;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: 1rem;
+  }
 }
 
 h3 {
@@ -103,6 +115,12 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .card__image {
+    height: 200px;
+  }
 }
 
 #card__image-01 {
