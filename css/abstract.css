@@ -154,6 +154,12 @@
   border-radius: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  .contact__buttons a {
+       font-size: 0.6rem;
+  }
+}
+
 .contact__buttons {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 1fr;
