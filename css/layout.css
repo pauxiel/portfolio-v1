@@ -190,6 +190,12 @@ h3 {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+  .portfolio__card {
+    margin-bottom: 1.5rem;
+  }
+}
+
 /* .contact__buttons {
   display: flex;
 }
