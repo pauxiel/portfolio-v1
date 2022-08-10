@@ -1,0 +1,127 @@
+.experience__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience__location,
+.experience__date {
+  margin: 0.5rem 0rem;
+}
+
+.experience__date {
+  color: #c4c4c4;
+  font-weight: 300;
+}
+
+.experience__location {
+  color: #6cace4;
+  font-weight: 300;
+}
+
+.experience__body {
+  color: #c4c4c4;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.experience__body li {
+  margin-bottom: 0.5rem;
+}
+
+.experience__card {
+  margin-bottom: 2rem;
+}
+
+.feedback-input {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  /* color: #c4c4c4; */
+  border: 1px solid #ffffff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  display: inline-block;
+  padding: 1.25rem 3.8rem;
+  border: 1px solid #fff;
+  font-size: 0.9rem;
+  color: #c4c4c4;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+[type="submit"]:hover,
+[type="submit"]:active {
+  background-color: white;
+  color: #111111;
+}
+
+.contactus__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactus__form {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactus__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.list-item {
+  line-height: 4;
+  color: #c4c4c4;
+}
+
+.contact-text {
+  /* font: 300 18px 'Lato', sans-serif; */
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.contact-text a {
+  color: #c4c4c4;
+  font-weight: 300;
+  /* text-decoration: none;
+    transition-duration: 0.2s; */
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.job {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.2rem;
+}
